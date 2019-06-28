@@ -1,0 +1,22 @@
+
+1.Wydrukuj marker znajduj¹cy siê w katalogu, gdzie zosta³ zainstalowany program np. : C:\Program Files\Artefakty. (marker.pdf lub marker.png).
+2.Uruchom aplikacjê "Artefakty" za pomoc¹ skrótu na pulpicie lub z poziomu programów.
+3.Przystaw marker do kamery w taki sposób aby zosta³ rozpoznany przez program.
+4.Modyfikuj powsta³y obiekt za pomoc¹ przycisków na klawiaturze:
+
+
+	"p"	 - w³¹czenie opcji progowania, s³ó¿¹cej do okreœlenia jasnoœci markera
+				(wartoœæ domyœlna: 100, wartoœæ max: 256).
+	"["	- zmniejszenie wartoœci progowania.
+	"]"	- zwiêkszenie wartoœci progowania.
+	"-"	- pomniejszenie obiektu 3d.
+	"+","="	- powiêkszenie obiektu 3d.
+	"w"	- przesniêcie modelu w górê wzglêdem markera.
+	"s"	- przesniêcie modelu w dó³ wzglêdem markera.
+	"a"	- przesniêcie modelu w lewo wzglêdem markera.
+	"d"	- przesniêcie modelu w prawo wzglêdem markera.
+	"strza³ka w górê" ,"strza³ka w dó³" - obrót modelu wzglêdem osi x.
+	"strza³ka w lewo" ,"strza³ka w prawo" - obrót modelu wzglêdem osi y.
+	","  lub  "<" , "." lub ">" - obrót modelu wzglêdem osi z.
+	"c"	- ustawienie rozdzielczoœci.
+	"q","Esc"	- wy³¹czenie programu.
