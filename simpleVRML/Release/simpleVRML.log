@@ -1,0 +1,46 @@
+﻿Build started 2016-02-13 19:32:01.
+     1>Project "C:\Program Files\ARToolKit\examples\simpleVRML\simpleVRML.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\simpleVRML.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\simpleVRML.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\ARToolKit\examples\simpleVRML\..\..\include" /I"C:\Program Files\ARToolKit\examples\simpleVRML\..\..\OpenVRML\include" /I"C:\Program Files\ARToolKit\examples\simpleVRML\..\..\OpenVRML\dependencies\include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt object.c simpleVRML.c
+         object.c
+     1>object.c(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>object.c(37): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>object.c(48): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>object.c(67): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>object.c(76): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>object.c(81): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+         simpleVRML.c
+     1>simpleVRML.c(518): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>simpleVRML.c(519): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\examples\simpleVRML\Release\simpleVRML.exe) does not match the Linker's OutputFile property value (C:\Program Files\ARToolKit\bin\simpleVRML.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\ARToolKit\examples\simpleVRML\..\..\bin\simpleVRML.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\ARToolKit\examples\simpleVRML\..\..\lib" /LIBPATH:"C:\Program Files\ARToolKit\examples\simpleVRML\..\..\OpenVRML\lib" /LIBPATH:"C:\Program Files\ARToolKit\examples\simpleVRML\..\..\OpenVRML\dependencies\lib" ws2_32.lib opengl32.lib glu32.lib glut32.lib libjpeg.lib libpng.lib zlib.lib libARvrml.lib openvrml.lib "openvrml-gl.lib" antlr.lib regex.lib libARvideo.lib libAR.lib libARgsub_lite.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmtd.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrtd.lib /MANIFEST /ManifestFile:"Release\simpleVRML.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Program Files\ARToolKit\examples\simpleVRML\Release\simpleVRML.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\simpleVRML.lib" /MACHINE:X86 Release\object.obj
+         Release\simpleVRML.obj
+         "C:\Program Files\ARToolKit\lib\libarvrml.lib"
+         "C:\Program Files\ARToolKit\lib\libAR.lib"
+         "C:\Program Files\ARToolKit\lib\libARgsub_lite.lib"
+         "C:\Program Files\ARToolKit\lib\libARvideo.lib"
+         simpleVRML.vcxproj -> C:\Program Files\ARToolKit\examples\simpleVRML\Release\simpleVRML.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files\ARToolKit\examples\simpleVRML\..\..\bin\simpleVRML.exe;#1" /manifest Release\simpleVRML.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\simpleVRML.unsuccessfulbuild".
+         Touching "Release\simpleVRML.lastbuildstate".
+     1>Done Building Project "C:\Program Files\ARToolKit\examples\simpleVRML\simpleVRML.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42
